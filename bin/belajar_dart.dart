@@ -1,12 +1,10 @@
 import 'package:belajar_dart/belajar_dart.dart' as belajar_dart;
+import 'dart:io';
 
 void main(List<String> arguments) {
-  var dynamic = '' // dynamic
-  String greetings = 'Hello Dart!';  // String
-  int myAge = 20;                 // integers
-
-  myAge = 20;
-  print(myAge);
-
-  print(greetings);
+  stdout.write('Nama Anda : ');
+  String name = stdin.readLineSync()!;
+  stdout.write('Usia Anda : ');
+  int age = int.parse(stdin.readLineSync());
+  print('Halo $name, usia Anda $age tahun.');
 }
