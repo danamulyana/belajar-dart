@@ -46,12 +46,12 @@ num checkDiscount(num price) {
 //scope level control flow
 num checkDiscount2(num price) {
   num discount = 0;
-  if (!discountApplied) { // Error
+  /*if (!discountApplied) { // Error
     if (price >= 100000) {
       discount = 10 / 100 * price;
       var discountApplied = true;
     }
-  }
+  }*/
 
   return discount;
 }

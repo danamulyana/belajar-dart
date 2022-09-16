@@ -41,6 +41,10 @@ String calculateScore(num score) {
     return 'E';
   }
 }
+
+var now = 10;
+var openHours = 9;
+var name= 'dana';
 // conditional expressions
 
 var shopStatus = now > openHours ? "Hello, we're open" : "Sorry, we've closed";

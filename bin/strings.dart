@@ -1,16 +1,19 @@
-String singleQuote = 'Ini adalah String';
-String doubleQuote = "Ini juga String";
 
-print('"What do you think of Dart?" he asked');
+void main(){
+  String singleQuote = 'Ini adalah String';
+  String doubleQuote = "Ini juga String";
 
-print('"I think it\'s great!" I answered confidently');
+  print('"What do you think of Dart?" he asked');
 
-print("Windows path: C:\\Program Files\\Dart");
+  print('"I think it\'s great!" I answered confidently');
 
-print(r'Dia baru saja membeli komputer seharga $1,000.00');
+  print("Windows path: C:\\Program Files\\Dart");
 
-print('Hi \u2665');
-/*
-  output :
-    Hi ♥
-*/
+  print(r'Dia baru saja membeli komputer seharga $1,000.00');
+
+  print('Hi \u2665');
+  /*
+    output :
+      Hi ♥
+  */
+}

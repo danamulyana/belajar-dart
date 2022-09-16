@@ -1,26 +1,28 @@
-var capital = {
-  'Jakarta': 'Indonesia',
-  'London': 'England',
-  'Tokyo': 'Japan'
-};
+void main(){
+  var capital = {
+    'Jakarta': 'Indonesia',
+    'London': 'England',
+    'Tokyo': 'Japan'
+  };
 
-print(capital['Jakarta']);
+  print(capital['Jakarta']);
 
-// Output: Indonesia
+  // Output: Indonesia
 
-// menampilkan key
+  // menampilkan key
 
-var mapKeys = capital.keys;
+    var mapKeys = capital.keys;
 
-// mapKeys = (Jakarta, London, Tokyo)
+  // mapKeys = (Jakarta, London, Tokyo)
 
-// menampilkan value
-var mapValues = capital.values;
+  // menampilkan value
+    var mapValues = capital.values;
 
-// mapValues = (Indonesia, England, Japan)
+  // mapValues = (Indonesia, England, Japan)
 
-//menambahkan baru
-capital['New Delhi'] = 'India';
-print(capital);
+  //menambahkan baru
+    capital['New Delhi'] = 'India';
+    print(capital);
 
-// Output: {Jakarta: Indonesia, London: England, Tokyo: Japan, New Delhi: India}
+  // Output: {Jakarta: Indonesia, London: England, Tokyo: Japan, New Delhi: India}
+}

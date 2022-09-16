@@ -1,4 +1,4 @@
-int age = null;               // Compile error
+//int age = null;               // Compile error
 String? favoriteFood = null;
 
 void main() {
@@ -6,7 +6,7 @@ void main() {
   int age = 23;
   String? favoriteFood = null;
 
-  buyAMeal(favoriteFood);       // Compile error
+  // buyAMeal(favoriteFood);       // Compile error
   buyAMeal(favoriteFood!);      // atau pakai ini
 }
 // INI ERROR
